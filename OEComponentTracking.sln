@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEComponentDALC", "OEComponentDALC\OEComponentDALC.csproj", "{113692D0-205E-4A04-9F83-A9BEC27FF16B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF} = {D53BCD2F-B577-482B-8E98-94BC9E9488CF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEComponentBLLC", "OEComponentBLLC\OEComponentBLLC.csproj", "{312056C7-2CFD-44E9-B701-236541D190E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF} = {D53BCD2F-B577-482B-8E98-94BC9E9488CF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEComponentUtility", "OEComponentUtility\OEComponentUtility.csproj", "{D53BCD2F-B577-482B-8E98-94BC9E9488CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEComponentTracking", "OEComponentTracking\OEComponentTracking.csproj", "{00BB7569-3B28-42DE-9774-EA775A83D836}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF} = {D53BCD2F-B577-482B-8E98-94BC9E9488CF}
+		{312056C7-2CFD-44E9-B701-236541D190E0} = {312056C7-2CFD-44E9-B701-236541D190E0}
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B} = {113692D0-205E-4A04-9F83-A9BEC27FF16B}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OEComponentTrackingSetup", "OEComponentTrackingSetup\OEComponentTrackingSetup.vdproj", "{A1F8847F-9624-420F-8045-D72CB006B6BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TupeloDev|Any CPU = TupeloDev|Any CPU
+		TupeloProd|Any CPU = TupeloProd|Any CPU
+		TupeloQA|Any CPU = TupeloQA|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.TupeloDev|Any CPU.ActiveCfg = TupeloDev|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.TupeloDev|Any CPU.Build.0 = TupeloDev|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.TupeloProd|Any CPU.ActiveCfg = TupeloProd|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.TupeloProd|Any CPU.Build.0 = TupeloProd|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.TupeloQA|Any CPU.ActiveCfg = TupeloQA|Any CPU
+		{113692D0-205E-4A04-9F83-A9BEC27FF16B}.TupeloQA|Any CPU.Build.0 = TupeloQA|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.TupeloDev|Any CPU.ActiveCfg = TupeloDev|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.TupeloDev|Any CPU.Build.0 = TupeloDev|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.TupeloProd|Any CPU.ActiveCfg = TupeloProd|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.TupeloProd|Any CPU.Build.0 = TupeloProd|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.TupeloQA|Any CPU.ActiveCfg = TupeloQA|Any CPU
+		{312056C7-2CFD-44E9-B701-236541D190E0}.TupeloQA|Any CPU.Build.0 = TupeloQA|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.TupeloDev|Any CPU.ActiveCfg = TupeloDev|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.TupeloDev|Any CPU.Build.0 = TupeloDev|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.TupeloProd|Any CPU.ActiveCfg = TupeloProd|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.TupeloProd|Any CPU.Build.0 = TupeloProd|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.TupeloQA|Any CPU.ActiveCfg = TupeloQA|Any CPU
+		{D53BCD2F-B577-482B-8E98-94BC9E9488CF}.TupeloQA|Any CPU.Build.0 = TupeloQA|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.TupeloDev|Any CPU.ActiveCfg = TupeloDev|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.TupeloDev|Any CPU.Build.0 = TupeloDev|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.TupeloProd|Any CPU.ActiveCfg = TupeloProd|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.TupeloProd|Any CPU.Build.0 = TupeloProd|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.TupeloQA|Any CPU.ActiveCfg = TupeloQA|Any CPU
+		{00BB7569-3B28-42DE-9774-EA775A83D836}.TupeloQA|Any CPU.Build.0 = TupeloQA|Any CPU
+		{A1F8847F-9624-420F-8045-D72CB006B6BF}.Debug|Any CPU.ActiveCfg = Debug
+		{A1F8847F-9624-420F-8045-D72CB006B6BF}.Release|Any CPU.ActiveCfg = Release
+		{A1F8847F-9624-420F-8045-D72CB006B6BF}.TupeloDev|Any CPU.ActiveCfg = Debug
+		{A1F8847F-9624-420F-8045-D72CB006B6BF}.TupeloProd|Any CPU.ActiveCfg = Debug
+		{A1F8847F-9624-420F-8045-D72CB006B6BF}.TupeloQA|Any CPU.ActiveCfg = Debug
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
